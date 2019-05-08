@@ -33,6 +33,7 @@ var File = function (name, localURL, type, lastModifiedDate, size) {
     this.localURL = localURL || null;
     this.type = type || null;
     this.lastModified = lastModifiedDate || null;
+    
     // For backwards compatibility, store the timestamp in lastModifiedDate as well
     this.lastModifiedDate = lastModifiedDate || null;
     this.size = size || 0;
